@@ -12,7 +12,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1">
+        android:layout_weight="2">
 
         <Button
             android:id="@+id/activity_main_login"
@@ -66,5 +66,12 @@
             android:text="Promenades à venir" />
 
     </LinearLayout>
+
+    <!-- Ajout de la Toolbar -->
+    <include
+        android:id="@+id/tToolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/my_toolbar" />
 
 </LinearLayout>
